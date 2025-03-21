@@ -1,0 +1,38 @@
+fastapi>=0.103.1
+uvicorn>=0.23.2
+pydantic>=2.3.0
+pydantic-settings>=2.0.3
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+supabase>=1.0.3
+httpx>=0.24.1
+pytest>=7.4.2
+pytest-asyncio>=0.21.1
+python-jose>=3.3.0
+passlib>=1.7.4
+tenacity>=8.2.3
+starlette>=0.27.0
+email-validator>=2.0.0
+python-dateutil>=2.8.2
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+redis>=4.6.0
+psutil>=5.9.5
+pytest-cov>=4.1.0
+
+# Machine learning
+transformers>=4.35.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+nltk>=3.8.1
+sentence-transformers>=3.0.0
+spacy>=3.7.0
+
+# Testing
+pytest>=7.4.3
+
+# Authentication (if needed)
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# You'll also need to run: python -m spacy download en_core_web_sm 

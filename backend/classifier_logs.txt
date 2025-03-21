@@ -1,0 +1,206 @@
+2025-03-21 11:12:28,451 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:12:28,451 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:12:32,514 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:12:32,514 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:12:32,517 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:12:48,057 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:12:48,057 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:12:52,229 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:12:52,229 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:12:52,229 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:12:52,249 - document_classifier - INFO - Classifying document with 1 chunks
+2025-03-21 11:12:52,451 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1822
+2025-03-21 11:12:54,473 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:12:54,492 - document_classifier - INFO - Classifying document with 1 chunks
+2025-03-21 11:12:54,692 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1741
+2025-03-21 11:14:05,190 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:14:05,190 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:14:09,810 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:14:09,811 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:14:09,811 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:14:11,676 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:14:11,676 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:14:17,815 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:14:17,816 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:14:17,816 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:14:17,838 - document_classifier - INFO - Classifying document with 1 chunks
+2025-03-21 11:14:18,040 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1822
+2025-03-21 11:14:20,140 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:14:20,157 - document_classifier - INFO - Classifying document with 1 chunks
+2025-03-21 11:14:20,373 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1741
+2025-03-21 11:15:23,413 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:15:23,413 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:15:28,055 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:15:28,055 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:15:28,055 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:16:21,203 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:16:21,203 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:16:26,351 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:16:26,351 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:16:26,351 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:16:26,352 - document_classifier - INFO - Created new global DocumentClassifier instance
+2025-03-21 11:16:53,033 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:16:53,034 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:16:57,686 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:16:57,686 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:16:57,687 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:17:09,851 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:17:09,852 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:17:13,922 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:17:13,923 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:17:13,923 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:17:24,876 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0012s
+2025-03-21 11:17:24,882 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0010s
+2025-03-21 11:17:25,435 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:25,499 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:25,518 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 440.03, "timestamp": 1742555845.500854, "system": {"cpu_percent": 5.6, "memory_used_percent": 89.2, "memory_available_mb": 1732.3984375, "disk_used_percent": 95.4, "net_bytes_sent": 2330539248, "net_bytes_recv": 13196992175}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:25,521 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.5552s
+2025-03-21 11:17:25,643 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:25,691 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:25,707 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 171.36, "timestamp": 1742555845.692488, "system": {"cpu_percent": 3.6, "memory_used_percent": 89.2, "memory_available_mb": 1725.828125, "disk_used_percent": 95.4, "net_bytes_sent": 2330542354, "net_bytes_recv": 13197041028}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:25,710 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.7315s
+2025-03-21 11:17:27,122 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 11:17:27,122 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-21 11:17:33,128 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:17:33,129 - document_classifier - INFO - Document classifier initialized with model: SentenceTransformer(
+  (0): Transformer({'max_seq_length': 384, 'do_lower_case': False}) with Transformer model: MPNetModel 
+  (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
+  (2): Normalize()
+)
+2025-03-21 11:17:33,129 - document_classifier - INFO - Categories: ['Technical Documentation', 'Business Proposal', 'Legal Document', 'Academic Paper', 'General Article', 'Other']
+2025-03-21 11:17:33,129 - document_classifier - INFO - Created new global DocumentClassifier instance
+2025-03-21 11:17:36,047 - document_classifier - INFO - Updated category embeddings for 6 categories
+2025-03-21 11:17:36,176 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id%2Ccontent "HTTP/2 200 OK"
+2025-03-21 11:17:36,186 - app.api.routes.files - INFO - Found 17 documents to reclassify
+2025-03-21 11:17:36,317 - document_classifier - INFO - Classifying document with 19 chunks
+2025-03-21 11:17:42,345 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1818
+2025-03-21 11:17:42,423 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.41 "HTTP/2 200 OK"
+2025-03-21 11:17:42,425 - app.api.routes.files - INFO - Successfully reclassified document 41
+2025-03-21 11:17:42,427 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0009s
+2025-03-21 11:17:42,429 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0010s
+2025-03-21 11:17:42,543 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:42,585 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:42,602 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 132.96, "timestamp": 1742555862.586455, "system": {"cpu_percent": 17.1, "memory_used_percent": 87.2, "memory_available_mb": 2047.578125, "disk_used_percent": 95.4, "net_bytes_sent": 2330568409, "net_bytes_recv": 13197179368}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:42,605 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.1685s
+2025-03-21 11:17:42,700 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:42,744 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:42,758 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 138.7, "timestamp": 1742555862.7442968, "system": {"cpu_percent": 5.4, "memory_used_percent": 87.3, "memory_available_mb": 2039.20703125, "disk_used_percent": 95.4, "net_bytes_sent": 2330571461, "net_bytes_recv": 13197228252}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:42,761 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.3233s
+2025-03-21 11:17:42,869 - document_classifier - INFO - Classifying document with 10 chunks
+2025-03-21 11:17:45,284 - document_classifier - INFO - Top prediction: Other with score 0.1728
+2025-03-21 11:17:45,328 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.42 "HTTP/2 200 OK"
+2025-03-21 11:17:45,330 - app.api.routes.files - INFO - Successfully reclassified document 42
+2025-03-21 11:17:45,512 - document_classifier - INFO - Classifying document with 6 chunks
+2025-03-21 11:17:47,650 - document_classifier - INFO - Top prediction: Business Proposal with score 0.1832
+2025-03-21 11:17:47,693 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.43 "HTTP/2 200 OK"
+2025-03-21 11:17:47,694 - app.api.routes.files - INFO - Successfully reclassified document 43
+2025-03-21 11:17:47,696 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0010s
+2025-03-21 11:17:47,697 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0011s
+2025-03-21 11:17:47,858 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:47,908 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:47,926 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 178.84, "timestamp": 1742555867.9097068, "system": {"cpu_percent": 12.2, "memory_used_percent": 87.6, "memory_available_mb": 1979.08984375, "disk_used_percent": 95.4, "net_bytes_sent": 2330581450, "net_bytes_recv": 13197290735}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:47,928 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.2217s
+2025-03-21 11:17:48,044 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:48,092 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:48,132 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 165.3, "timestamp": 1742555868.0935738, "system": {"cpu_percent": 8.7, "memory_used_percent": 88.2, "memory_available_mb": 1888.7578125, "disk_used_percent": 95.4, "net_bytes_sent": 2330584664, "net_bytes_recv": 13197339673}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:48,135 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.4278s
+2025-03-21 11:17:48,227 - document_classifier - INFO - Classifying document with 4 chunks
+2025-03-21 11:17:49,587 - document_classifier - INFO - Top prediction: General Article with score 0.1802
+2025-03-21 11:17:49,633 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.44 "HTTP/2 200 OK"
+2025-03-21 11:17:49,635 - app.api.routes.files - INFO - Successfully reclassified document 44
+2025-03-21 11:17:49,904 - document_classifier - INFO - Classifying document with 14 chunks
+2025-03-21 11:17:53,951 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1783
+2025-03-21 11:17:53,990 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.45 "HTTP/2 200 OK"
+2025-03-21 11:17:53,992 - app.api.routes.files - INFO - Successfully reclassified document 45
+2025-03-21 11:17:53,993 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0000s
+2025-03-21 11:17:53,995 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files - 307 - 0.0010s
+2025-03-21 11:17:54,177 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:54,240 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:54,251 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 190.52, "timestamp": 1742555874.24024, "system": {"cpu_percent": 10.9, "memory_used_percent": 88.5, "memory_available_mb": 1841.40625, "disk_used_percent": 95.4, "net_bytes_sent": 2330590459, "net_bytes_recv": 13197395222}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:54,253 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.2262s
+2025-03-21 11:17:54,355 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=%2A&order=uploaded_at.desc&offset=0&limit=50 "HTTP/2 200 OK"
+2025-03-21 11:17:54,412 - httpx - INFO - HTTP Request: GET https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?select=id "HTTP/2 200 OK"
+2025-03-21 11:17:54,435 - api.performance - INFO - Request metrics: {"path": "/api/v1/files/", "method": "GET", "status_code": 200, "client_ip": "127.0.0.1", "process_time_ms": 162.58, "timestamp": 1742555874.4174001, "system": {"cpu_percent": 4.9, "memory_used_percent": 88.5, "memory_available_mb": 1845.22265625, "disk_used_percent": 95.4, "net_bytes_sent": 2330593619, "net_bytes_recv": 13197444101}, "endpoint": "get_files", "success": true}
+2025-03-21 11:17:54,438 - app.core.middleware - INFO - 127.0.0.1 - GET /api/v1/files/ - 200 - 0.4087s
+2025-03-21 11:17:54,546 - document_classifier - INFO - Classifying document with 14 chunks
+2025-03-21 11:17:57,463 - document_classifier - INFO - Top prediction: Legal Document with score 0.1719
+2025-03-21 11:17:57,496 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.47 "HTTP/2 200 OK"
+2025-03-21 11:17:57,497 - app.api.routes.files - INFO - Successfully reclassified document 47
+2025-03-21 11:17:57,676 - document_classifier - INFO - Classifying document with 11 chunks
+2025-03-21 11:17:59,750 - document_classifier - INFO - Top prediction: Business Proposal with score 0.1824
+2025-03-21 11:17:59,783 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.48 "HTTP/2 200 OK"
+2025-03-21 11:17:59,784 - app.api.routes.files - INFO - Successfully reclassified document 48
+2025-03-21 11:18:00,042 - document_classifier - INFO - Classifying document with 16 chunks
+2025-03-21 11:18:03,916 - document_classifier - INFO - Top prediction: Business Proposal with score 0.1719
+2025-03-21 11:18:03,946 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.49 "HTTP/2 200 OK"
+2025-03-21 11:18:03,947 - app.api.routes.files - INFO - Successfully reclassified document 49
+2025-03-21 11:18:04,161 - document_classifier - INFO - Classifying document with 10 chunks
+2025-03-21 11:18:06,971 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1706
+2025-03-21 11:18:07,009 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.50 "HTTP/2 200 OK"
+2025-03-21 11:18:07,011 - app.api.routes.files - INFO - Successfully reclassified document 50
+2025-03-21 11:18:07,185 - document_classifier - INFO - Classifying document with 7 chunks
+2025-03-21 11:18:08,879 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1836
+2025-03-21 11:18:08,932 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.51 "HTTP/2 200 OK"
+2025-03-21 11:18:08,933 - app.api.routes.files - INFO - Successfully reclassified document 51
+2025-03-21 11:18:09,134 - document_classifier - INFO - Classifying document with 10 chunks
+2025-03-21 11:18:11,824 - document_classifier - INFO - Top prediction: Academic Paper with score 0.1857
+2025-03-21 11:18:11,882 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.52 "HTTP/2 200 OK"
+2025-03-21 11:18:11,882 - app.api.routes.files - INFO - Successfully reclassified document 52
+2025-03-21 11:18:12,024 - document_classifier - INFO - Classifying document with 2 chunks
+2025-03-21 11:18:12,531 - document_classifier - INFO - Top prediction: General Article with score 0.1823
+2025-03-21 11:18:12,568 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.53 "HTTP/2 200 OK"
+2025-03-21 11:18:12,569 - app.api.routes.files - INFO - Successfully reclassified document 53
+2025-03-21 11:18:12,945 - document_classifier - INFO - Classifying document with 26 chunks
+2025-03-21 11:18:18,756 - document_classifier - INFO - Top prediction: Business Proposal with score 0.1773
+2025-03-21 11:18:18,877 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.54 "HTTP/2 200 OK"
+2025-03-21 11:18:18,879 - app.api.routes.files - INFO - Successfully reclassified document 54
+2025-03-21 11:18:19,114 - document_classifier - INFO - Classifying document with 21 chunks
+2025-03-21 11:18:22,941 - document_classifier - INFO - Top prediction: Business Proposal with score 0.1805
+2025-03-21 11:18:22,983 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.55 "HTTP/2 200 OK"
+2025-03-21 11:18:22,985 - app.api.routes.files - INFO - Successfully reclassified document 55
+2025-03-21 11:18:23,186 - document_classifier - INFO - Classifying document with 15 chunks
+2025-03-21 11:18:26,009 - document_classifier - INFO - Top prediction: Business Proposal with score 0.1779
+2025-03-21 11:18:26,052 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.56 "HTTP/2 200 OK"
+2025-03-21 11:18:26,053 - app.api.routes.files - INFO - Successfully reclassified document 56
+2025-03-21 11:18:26,285 - document_classifier - INFO - Classifying document with 20 chunks
+2025-03-21 11:18:30,555 - document_classifier - INFO - Top prediction: Academic Paper with score 0.1719
+2025-03-21 11:18:30,608 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.57 "HTTP/2 200 OK"
+2025-03-21 11:18:30,609 - app.api.routes.files - INFO - Successfully reclassified document 57
+2025-03-21 11:18:30,745 - document_classifier - INFO - Classifying document with 6 chunks
+2025-03-21 11:18:31,903 - document_classifier - INFO - Top prediction: Technical Documentation with score 0.1858
+2025-03-21 11:18:31,940 - httpx - INFO - HTTP Request: PATCH https://obmtonrybpwebpjmvpvx.supabase.co/rest/v1/files?id=eq.59 "HTTP/2 200 OK"
+2025-03-21 11:18:31,941 - app.api.routes.files - INFO - Successfully reclassified document 59
+2025-03-21 11:18:32,055 - app.api.routes.files - INFO - Completed reclassification of 17 documents
+2025-03-21 11:18:32,056 - app.core.middleware - INFO - 127.0.0.1 - POST /api/v1/files/reclassify-all - 200 - 64.9486s

@@ -19,11 +19,14 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+venv/
 
 # Environment
 .env
 env/
 ENV/
+venv/
 
 # IDE
 .idea/
@@ -33,4 +36,8 @@ ENV/
 
 # Logs
 logs/
-*.log 
+*.log
+
+# OS
+.DS_Store
+Thumbs.db 
